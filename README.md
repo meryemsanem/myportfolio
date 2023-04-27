@@ -38,8 +38,6 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> I used CSS and HTML.
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -64,8 +62,6 @@
 
 ## 💻 Getting Started
  <a name="getting-started"></a>
-
-> Setting up the linters for the Setup and Finish Mobile project.
 
 To get a local copy up and running, follow these steps.
 
@@ -133,8 +129,6 @@ Github Pages
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
 - GitHub: [@meryemsanem](https://github.com/meryemsanem)
@@ -147,8 +141,6 @@ Github Pages
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - **Java Script**
 - **Contact form**
@@ -170,7 +162,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> If you like this project please give a ⭐️ to support me.
+  If you like this project please give a ⭐️ to support me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -178,7 +170,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> I would like to thank you yo my coding partners.
+ I would like to thank you yo my coding partners.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
