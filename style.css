@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
   margin: 0;
@@ -102,7 +103,7 @@
   .icons {
     justify-content: space-between;
     display: flex;
-    padding-left: 40px;
+    padding-left: 80px;
     margin-top: 450px;
   }
 
@@ -161,7 +162,256 @@
     display: flex;
   }
 
-  li {
+  h2 {
+    text-align: center;
+    color: black;
+    margin-top: 120px;
     width: 100%;
+    margin-left: 24px;
+    font-family: "Crete Round", serif;
+    font-size: 40px;
+    line-height: 24px;
+    font-weight: 400;
+    height: 123px;
+    max-width: fit-content;
+  }
+
+  .image1 {
+    height: 237px;
+    width: 100%;
+    margin-left: 24px;
+    margin-top: 80px;
+  }
+
+  .vector {
+    margin-left: 24px;
+    width: 100%;
+    max-width: fit-content;
+    margin-top: -50px;
+  }
+
+  .texts1 {
+    height: 36px;
+    width: 100%;
+    margin-top: 24px;
+    border-radius: nullpx;
+    font-family: "Crete Round", serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: left;
+    margin-left: 24px;
+    color: #091e42;
+  }
+
+  .texts2 {
+    height: 147px;
+    width: 100%;
+    margin-left: 24px;
+    margin-top: 12px;
+    font-family: "Inter", serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    max-width: fit-content;
+    color: #091e42;
+  }
+
+  .tags {
+    height: 40px;
+    width: 314px;
+    margin-left: 24px;
+    margin-top: 12px;
+  }
+
+  .see {
+    height: 48px;
+    width: 124px;
+    margin-left: 10px;
+    margin-top: 12px;
+    padding: 12px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template: repeat(6, 386px) / repeat(1, 327px);
+    row-gap: 24px;
+  }
+
+  .first,
+  .second,
+  .third,
+  .fourth,
+  .fifth,
+  .sixth {
+    background-image: url("icons/background.png");
+    max-width: fit-content;
+    width: 327px;
+    height: 386px;
+    margin-left: 24px;
+    margin-top: 30px;
+  }
+
+  h4 {
+    height: 81px;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 72px;
+    font-family: "Crete Round", serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: left;
+    color: #fff;
+  }
+
+  .ntext {
+    height: 99px;
+    width: 100%;
+    margin-left: 16px;
+    margin-top: 12px;
+    font-family: "Inter", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+  }
+
+  .html {
+    height: 40px;
+    width: 67px;
+    margin-left: 14px;
+    margin-top: 12px;
+  }
+
+  .boot {
+    height: 40px;
+    width: 95px;
+    margin-left: 95px;
+    margin-top: -40px;
+  }
+
+  .ruby {
+    height: 40px;
+    width: 95px;
+    margin-left: 205px;
+    margin-top: -40px;
+    border-radius: -40px;
+  }
+
+  .see2 {
+    margin-top: 22px;
+    width: 100%;
+  }
+
+  .about-me {
+    height: 1800px;
+    width: 375px;
+    margin-top: -350px;
+    background: #1c1a19;
+    max-width: fit-content;
+  }
+
+  .about {
+    color: #ff6b00;
+    width: 100%;
+    height: 79px;
+    margin-left: 24px;
+    font-family: "Crete Round", serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 0.3700000047683716px;
+    text-align: left;
+    position: absolute;
+  }
+
+  .aboutme {
+    height: 148px;
+    width: 100%;
+    margin-left: 24px;
+    margin-top: 100px;
+    font-family: "Inter", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #f4f5f7;
+    align-self: center;
+    padding-top: 250px;
+    max-width: fit-content;
+  }
+
+  .button1 {
+    height: 48px;
+    width: 100%;
+    margin-left: 24px;
+    max-width: fit-content;
+    margin-top: 200px;
+  }
+
+  .illustration2 {
+    width: 100%;
+    background-image: url('icons/Illustration2.png');
+    background-repeat: no-repeat;
+    height: 258.69793701171875px;
+    margin-left: 210px;
+    margin-top: -60px;
+  }
+
+  .newvector {
+    width: 100%;
+    border: 5px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    margin-left: 135px;
+    color: #f4f5f7;
+    height: 24px;
+    width: 100%;
+    margin-top: 250px;
+    font-family: "Inter", serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: center;
+    display: flex;
+  }
+
+  li {
+    font-family: "Inter", serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: center;
+    width: 100%;
+    margin-left: -120px;
+    justify-content: center;
+  }
+
+  .lang {
+    justify-content: center;
+    width: 100%;
+    max-width: fit-content;
+    margin-left: -35px;
+    margin-top: 10px;
+  }
+
+  .frame {
+    justify-content: center;
+    width: 100%;
+    max-width: fit-content;
+    margin-left: -70px;
+  }
+
+  .skill {
+    margin-top: 20px;
+    justify-content: center;
+    max-width: fit-content;
+    width: 100%;
+    margin-left: -15px;
   }
 }
