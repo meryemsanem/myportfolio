@@ -12,6 +12,8 @@
 @media screen and (min-width: 374px) and (max-width: 768px) {
   body {
     width: 100%;
+    max-width: fit-content;
+    height: 6800px;
   }
 
   .nav-top {
@@ -162,154 +164,62 @@
     display: flex;
   }
 
-  h2 {
-    text-align: center;
-    color: black;
-    margin-top: 120px;
+  .work {
+    height: 3455px;
     width: 100%;
-    margin-left: 24px;
-    font-family: "Crete Round", serif;
-    font-size: 40px;
-    line-height: 24px;
-    font-weight: 400;
-    height: 123px;
-    max-width: fit-content;
-  }
-
-  .image1 {
-    height: 237px;
-    width: 100%;
-    margin-left: 24px;
-    margin-top: 80px;
-  }
-
-  .vector {
-    margin-left: 24px;
-    width: 100%;
-    max-width: fit-content;
-    margin-top: -50px;
-  }
-
-  .texts1 {
-    height: 36px;
-    width: 100%;
-    margin-top: 24px;
-    border-radius: nullpx;
-    font-family: "Crete Round", serif;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 44px;
-    text-align: left;
-    margin-left: 24px;
-    color: #091e42;
-  }
-
-  .texts2 {
-    height: 147px;
-    width: 100%;
-    margin-left: 24px;
-    margin-top: 12px;
-    font-family: "Inter", serif;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    max-width: fit-content;
-    color: #091e42;
-  }
-
-  .tags {
-    height: 40px;
-    width: 314px;
-    margin-left: 24px;
-    margin-top: 12px;
-  }
-
-  .see {
-    height: 48px;
-    width: 124px;
-    margin-left: 10px;
-    margin-top: 12px;
-    padding: 12px;
-  }
-
-  .grid-container {
+    background-color: red;
     display: grid;
-    grid-template: repeat(6, 386px) / repeat(1, 327px);
-    row-gap: 24px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    position: relative;
+    padding: 120px 0px;
+    gap : 80px;
   }
 
-  .first,
-  .second,
-  .third,
-  .fourth,
-  .fifth,
-  .sixth {
-    background-image: url("icons/background.png");
-    max-width: fit-content;
-    width: 327px;
-    height: 386px;
-    margin-left: 24px;
-    margin-top: 30px;
-  }
-
-  h4 {
-    height: 81px;
+  .work-heading {
     width: 100%;
-    margin-left: 10px;
-    margin-top: 72px;
+    height: 83px;
     font-family: "Crete Round", serif;
-    font-size: 32px;
     font-weight: 400;
-    line-height: 44px;
-    text-align: left;
-    color: #fff;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #1c1a19;
   }
 
-  .ntext {
-    height: 99px;
+  .work-heading::after {
+    content: '';
+    display: block;
+    border-radius: 10px;
+    width: 400px;
+    height: 3px;
+    background-color: #1c1a19;
+    align: center;
+    margin: 24px 0px;
+
+  }
+  
+
+  .myworks {
+    display: flex;
+    align-items: center;
     width: 100%;
-    margin-left: 16px;
-    margin-top: 12px;
-    font-family: "Inter", serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    color: white;
-  }
-
-  .html {
-    height: 40px;
-    width: 67px;
-    margin-left: 14px;
-    margin-top: 12px;
-  }
-
-  .boot {
-    height: 40px;
-    width: 95px;
-    margin-left: 95px;
+    height: 3372px;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: goldenrod;
     margin-top: -40px;
-  }
-
-  .ruby {
-    height: 40px;
-    width: 95px;
-    margin-left: 205px;
-    margin-top: -40px;
-    border-radius: -40px;
-  }
-
-  .see2 {
-    margin-top: 22px;
-    width: 100%;
   }
 
   .about-me {
     height: 1800px;
     width: 375px;
-    margin-top: -350px;
+    margin-top: -100px;
     background: #1c1a19;
     max-width: fit-content;
   }
