@@ -255,6 +255,7 @@
 
   .new-lang li a {
     color: white;
+    text-decoration: none;
   }
 
   .see-project li a {
