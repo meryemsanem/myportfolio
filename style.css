@@ -318,6 +318,7 @@
     margin-left: 24px;
     margin-right: 24px;
   }
+
   .cards {
     background-image: url("icons/background.png");
     background-repeat: no-repeat;
@@ -349,7 +350,6 @@
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
-    letter-spacing: 0em;
     text-align: left;
   }
 
@@ -358,7 +358,6 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0em;
     text-align: left;
     color: white;
     padding-left: 15px;
@@ -372,7 +371,6 @@
     font-size: 32px;
     font-weight: 400;
     line-height: 44px;
-    letter-spacing: 0em;
     text-align: left;
     color: white;
     padding-left: 15px;
@@ -390,7 +388,6 @@
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0.03em;
-    text-align: center;
   }
 
   .see-project-btn:hover {
@@ -605,7 +602,7 @@
 
   .information-list {
     list-style: none;
-    font-family: InaiMathi;
+    font-family: "InaiMathi", serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
