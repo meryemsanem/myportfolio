@@ -705,6 +705,7 @@
     font-family: "Inter", serif;
     font-style: normal;
     font-weight: 600;
+    border-radius: 3px;
     font-size: 17px;
     line-height: 24px;
     justify-content: center;
@@ -735,11 +736,9 @@
 
   .rect-footer {
     margin-top: 797px;
-    width: 100%;
-    max-width: fit-content;
-    display: flex;
-    flex-direction: row;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid #DFE1E6;
   }
 }
